@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @welcome.name %>
+</p>
+
+<p>
+  <strong>Emp:</strong>
+  <%= @welcome.emp_id %>
+</p>
+
+<p>
+  <strong>Home:</strong>
+  <%= @welcome.home %>
+</p>
+
+<%= link_to 'Edit', edit_welcome_path(@welcome) %> |
+<%= link_to 'Back', welcomes_path %>

@@ -2,14 +2,14 @@ default: &default
   adapter: postgresql
   encoding: utf8
   timeout: 500
-  pool: 5
-  username: postgres
-  password: root
-  host: localhost
+  pool: 5432
+  username: qrniyylimptrxa
+  password: 19a8509af50850f70baac169306c495ecf96e28460b7d3a2f0ec394e7580c75d
+  host: ec2-174-129-29-101.compute-1.amazonaws.com
 
 development:
   <<: *default
-  database: blog_dev
+  database: dbsfdpgmjgt1ma
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
